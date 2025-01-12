@@ -14,8 +14,8 @@ class MovieGrid extends StatelessWidget {
       physics: NeverScrollableScrollPhysics(),
       padding: EdgeInsets.all(8),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 0.7,
+        crossAxisCount: 4,
+        childAspectRatio: 0.6,
         crossAxisSpacing: 8,
         mainAxisSpacing: 8,
       ),
